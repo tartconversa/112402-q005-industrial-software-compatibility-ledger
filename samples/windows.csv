@@ -1,0 +1,4 @@
+exception,device,from,to,reason,state
+E1,D1,2026-10-10,2026-10-20,production-run,approved
+E2,D2,2026-10-11,2026-10-12,change-freeze,pending
+E3,D3,2026-10-01,2026-10-05,none,expired

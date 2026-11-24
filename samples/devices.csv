@@ -1,0 +1,4 @@
+device,product,build,line
+D1,PLC-X,4.1.9+99,L1
+D2,PLC-X,4.2.0+117,L2
+D3,GW-8,2.7.0,L1

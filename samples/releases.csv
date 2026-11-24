@@ -1,0 +1,4 @@
+release_id,vendor,product,build,channel,posted,state
+R1,Soft-A,PLC-X,4.2.0+117,stable,2026-10-01,active
+R2,Soft-A,PLC-X,4.2.0+117,regional,2026-10-04,active
+R3,Soft-B,GW-8,2.8.1,stable,2026-10-03,withdrawn
