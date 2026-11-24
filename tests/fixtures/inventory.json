@@ -1,0 +1,8 @@
+{
+  "schema_version": "inventory/v1",
+  "devices": [
+    {"device": "D1", "name": "一号PLC", "line": "L1", "product": "PLC-X", "build": "4.1.9+99"},
+    {"device": "D2", "name": "二号PLC", "line": "L2", "product": "PLC-X", "build": "4.2.0+117"},
+    {"device": "D3", "name": "网关A", "line": "L1", "product": "GW-8", "build": "2.7.0"}
+  ]
+}

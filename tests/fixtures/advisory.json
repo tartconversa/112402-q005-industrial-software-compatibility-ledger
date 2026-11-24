@@ -1,0 +1,16 @@
+{
+  "schema_version": "advisory/v1",
+  "advisories": [
+    {
+      "external_key": "ADV-2026-002",
+      "title": "GW-8 网关证书轮换公告",
+      "severity": "medium",
+      "published_at": "2026-11-12",
+      "body_text": "GW-8 2.8.2+5 轮换默认 TLS 证书。",
+      "withdrawn": false,
+      "targets": [
+        {"vendor": "Soft-B", "product": "GW-8", "raw_builds": ["2.8.2+5"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "catalog/v1",
+  "releases": [
+    {
+      "release_id": "R1",
+      "vendor": "Soft-A",
+      "product": "PLC-X",
+      "version": "4.2.0",
+      "build_number": "4.2.0+117",
+      "channel": "stable",
+      "posted_at": "2026-10-01",
+      "state": "active",
+      "artifacts": [
+        {
+          "file_name": "plcx-4.2.0-117-stable.bin",
+          "download_url": "https://vendor.test/dl/plcx-4.2.0-117-stable.bin",
+          "size_bytes": 1024000,
+          "checksum_algorithm": "sha256",
+          "checksum_value": "a1b2c3d4"
+        }
+      ]
+    },
+    {
+      "release_id": "R2",
+      "vendor": "Soft-A",
+      "product": "PLC-X",
+      "version": "4.2.0",
+      "build_number": "4.2.0+117",
+      "channel": "regional",
+      "posted_at": "2026-10-04",
+      "state": "active",
+      "artifacts": [
+        {
+          "file_name": "plcx-4.2.0-117-regional.bin",
+          "download_url": "https://regional.vendor.test/dl/plcx-4.2.0-117-regional.bin",
+          "size_bytes": 1024111,
+          "checksum_algorithm": "sha256",
+          "checksum_value": "deadbeef"
+        }
+      ]
+    },
+    {
+      "release_id": "R3",
+      "vendor": "Soft-B",
+      "product": "GW-8",
+      "version": "2.8.1",
+      "build_number": "2.8.1",
+      "channel": "stable",
+      "posted_at": "2026-10-03",
+      "state": "withdrawn",
+      "artifacts": [
+        {
+          "file_name": "gw8-2.8.1.bin",
+          "download_url": "https://vendor.test/dl/gw8-2.8.1.bin",
+          "checksum_algorithm": "sha256",
+          "checksum_value": "c0ffee"
+        }
+      ]
+    },
+    {
+      "release_id": "R4",
+      "vendor": "Soft-B",
+      "product": "GW-8",
+      "version": "2.8.2",
+      "build_number": "2.8.2+5",
+      "channel": "stable",
+      "posted_at": "2026-11-10",
+      "state": "active",
+      "artifacts": [
+        {
+          "file_name": "gw8-2.8.2-5.bin",
+          "download_url": "https://vendor.test/dl/gw8-2.8.2-5.bin",
+          "checksum_algorithm": "sha256",
+          "checksum_value": "f00d"
+        }
+      ]
+    }
+  ],
+  "advisories": [
+    {
+      "external_key": "ADV-2026-001",
+      "title": "PLC-X 控制通道安全更新",
+      "severity": "high",
+      "published_at": "2026-11-05",
+      "body_text": "PLC-X 4.2.0+117 修复控制通道越权问题。",
+      "content_url": "https://vendor.test/adv/001",
+      "withdrawn": false,
+      "targets": [
+        {"vendor": "Soft-A", "product": "PLC-X", "raw_builds": ["4.2.0+117"]}
+      ],
+      "artifacts": [
+        {
+          "file_name": "ADV-2026-001.txt",
+          "download_url": "https://vendor.test/adv/001/note",
+          "checksum_algorithm": "sha256",
+          "checksum_value": "abc123"
+        }
+      ]
+    }
+  ]
+}
